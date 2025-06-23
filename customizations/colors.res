@@ -15,11 +15,11 @@
 		//==========================================================
 
 		// white color and general hp color
-		"FullWhite"					"236 236 236 255"
+		"FullWhite"					"215 182 104 255"
 		"HealthNumbers"				"236 236 236 255"
 		// crosshair colors
-		"CrosshairColor"			"255 255 255 255"
-		"CrosshairFlash"			"255 0 0 255"
+		"CrosshairColor"			"215 182 104 255"
+		"CrosshairFlash"			"240 233 165 255"
 		// Ammo Colors
 		"MainAmmo"					"236 236 236 255"
 		"ReserveAmmo"				"236 236 236 255"
@@ -55,10 +55,10 @@
 		"THGreen2"					"0 230 119 255"
 		//UI
 		"THUnselected"				"118 118 118 236"
-		"Black"						"0 0 0 255"
-		"TransparentBlack"			"0 0 0 200"
-		"TransparentMediumBlack"	"0 0 0 150"
-		"TransparentLightBlack"		"0 0 0 100"
-		"TransparentLightestBlack"	"0 0 0 50"
+		"Black"						"87 0 127 255"
+		"TransparentBlack"			"87 0 127 200"
+		"TransparentMediumBlack"	"87 0 127 150"
+		"TransparentLightBlack"		"87 0 127 100"
+		"TransparentLightestBlack"	"87 0 127 50"
 	}
 }

@@ -3,13 +3,13 @@
 
 	"Version"
 	{
-		"label"										"technohud 0.51-HF1"
-		"command"									"engine showconsole; clear; echo technohud v0.51-HF1; echo by techno, using some bits of other huds by various people. (check github for credits); echo github.com/tekunotri/technohud"
+		"label"										"Console"
+		"command"									"engine showconsole; clear; echo TF2 World Machine Edition; echo by Zachuttak0, a modified version of technohud (github.com/tekunotri/technohud).; echo Not a cat"
 		"OnlyAtMenu"								"0"
 	}
 	"Servers"
 	{
-		"label"										"Servers"
+		"label"										"Community Servers"
 		"command"									"OpenServerBrowser"
 	}
 	"Items"
