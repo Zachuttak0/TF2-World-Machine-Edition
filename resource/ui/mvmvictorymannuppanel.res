@@ -1,5 +1,5 @@
 "Resource/UI/MvMVictoryMannUpPanel.res"
-{			
+{
 	//Mouse over panel
 	"mouseoveritempanel"
 	{
@@ -8,20 +8,20 @@
 		"xpos"			"0"
 		"ypos"			"600"
 		"zpos"			"9999"
-		"wide"			"250"
+		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"text_ypos"			"0"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -55,14 +55,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#DoneButton"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"done"
 	}
@@ -93,7 +93,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-			
+
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"42 39 37 255"
 	}
@@ -109,13 +109,13 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
+		"image"			"replay/thumbnails/loadout_solid_line"
 		"scaleImage"	"1"
 
 		"pin_to_sibling"               "OutterBackground"
-		"pin_corner_to_sibling"        "2"          
-		"pin_to_sibling_corner"        "0"   
-	}	
+		"pin_corner_to_sibling"        "2"
+		"pin_to_sibling_corner"        "0"
+	}
 
 	"FooterLine"
 	{
@@ -128,14 +128,14 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
+		"image"			"replay/thumbnails/loadout_solid_line"
 		"scaleImage"	"1"
 
 		"pin_to_sibling"               "OutterBackground"
-		"pin_corner_to_sibling"        "0"          
-		"pin_to_sibling_corner"        "2" 
-	}	
-	
+		"pin_corner_to_sibling"        "0"
+		"pin_to_sibling_corner"        "2"
+	}
+
 
 	"TabContainer"
 	{
@@ -261,7 +261,7 @@
 			"proportionalToParent"	"1"
 		}
 	}
-		
+
 	"MainPanelContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -274,7 +274,7 @@
 		"visible"		"1"
 
 
-			
+
 		"NoItemServerContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -284,12 +284,12 @@
 			"wide"			"530"
 			"tall"			"480"
 			"visible"		"1"
-			
+
 			"NoItemServerHeader"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"NoItemServer"
-				"font"			"HudFontMediumSmallBold"
+				"font"			"HudFont18Bold"
 				"labelText"		"#TF_PVE_Server_GCDownHeader"
 				"textAlignment" "center"
 				"xpos"			"0"
@@ -297,12 +297,12 @@
 				"wide"			"530"
 				"fgcolor"		"tanlight"
 			}
-			
+
 			"NoItemServerMessage"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"NoItemServer"
-				"font"			"HudFontSmall"
+				"font"			"HudFont14"
 				"labelText"		"#TF_PVE_Server_GCDownMessage"
 				"textAlignment" "center"
 				"xpos"			"0"

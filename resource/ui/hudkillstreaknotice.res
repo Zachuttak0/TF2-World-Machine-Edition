@@ -1,5 +1,5 @@
 "Resource/UI/HudKillStreakNotice.res"
-{	
+{
 	"Background"
 	{
 		"ControlName"	"EditablePanel"
@@ -13,14 +13,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"46 43 42 160"	
+		"bgcolor_override"	"TransparentDarkGray"
 	}
-	
+
 	"SplashLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SplashLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-250"
@@ -29,6 +29,6 @@
 		"wide"			"500"
 		"tall"			"50"
 		"autoResize"	"0"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 }

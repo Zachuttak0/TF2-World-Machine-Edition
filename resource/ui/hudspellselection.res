@@ -1,36 +1,30 @@
 "Resource/UI/HudSpellSelection.res"
-{		
+{
 	HudSpellMenu
 	{
-		"xpos"			"130"
-
-		"if_killstreak_visible"
-		{
-			"xpos"			"160"
-		}
+		"xpos"			"c120"
+		"ypos"			"c145"
 	}
-			
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
 		"ypos"			"10"
-		"xpos_minmode"	"0"
-		"ypos_minmode"	"10"
 		"wide"			"80"
 		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"visible_minmode"	"0"
 		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
 		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"				
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"
 	}
-	
+
 	"Spellbook"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -40,13 +34,13 @@
 		"zpos"			"0"
 		"wide"			"64"
 		"tall"			"56"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"spellbook_book"
-		"scaleImage"	"1"		
+		"scaleImage"	"1"
 	}
-	
+
 	"SpellIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -60,11 +54,11 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
 	}
-	
+
 	"ActionText"
 	{
 		"ControlName"	"CExLabel"
@@ -72,14 +66,14 @@
 		"font"			"Default"
 		"labelText"		"%actiontext%"
 		"textAlignment" "west"
-		"xpos"			"18"
-		"ypos"			"48"
+		"xpos"			"22"
+		"ypos"			"40"
 		"wide"			"100"
 		"tall"			"10"
 		"fgcolor"		"tanlight"
 		"visible"		"1"
 	}
-	
+
 	"SpellText"
 	{
 		"ControlName"	"CExLabel"
@@ -94,36 +88,33 @@
 		"fgcolor"		"tanlight"
 		"visible"		"0"
 	}
-	
-	"CountTextShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountTextShadow"
-		"font"			"HudFontMediumBigBold"
-		"labelText"		"%counttext%"
-		"textAlignment" "center"
-		"xpos"			"47"
-		"ypos"			"18"
-		"xpos_minmode"	"47"
-		"ypos_minmode"	"38"
-		"wide"			"20"
-		"tall"			"20"
-		"fgcolor"		"0 0 0 255"
-	}
-	
 	"CountText"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"HudFontMediumBigBold"
+		"font"			"HudFont30Bold"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"46"
 		"ypos"			"17"
-		"xpos_minmode"	"46"
-		"ypos_minmode"	"37"
 		"wide"			"20"
-		"tall"			"19"
-		"fgcolor"		"tanlight"
+		"tall"			"20"
+		"fgcolor"		"Black"
 	}
+	"CountTextShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CountTextShadow"
+		"font"			"HudFont30Bold"
+		"labelText"		"%counttext%"
+		"textAlignment" "center"
+		"xpos"			"1"
+		"ypos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"fgcolor"		"TanLight"
+		"pin_to_sibling"	"CountText"
+	}
+
+
 }

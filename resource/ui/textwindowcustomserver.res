@@ -15,7 +15,7 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 	}
-	
+
 	"TFMessageTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -35,7 +35,7 @@
 		"brighttext"	"0"
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"White"
-	}	
+	}
 
 	"TextMessage"
 	{
@@ -49,18 +49,18 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"ChalkboardText"
+		"font"			"HudFont14Bold"
 		"xpos"			"c-184"
 		"ypos"			"125"
 		"zpos"			"1"
-		"wide"			"415"
-		"tall"			"240"
+		"wide"			"460"
+		"tall"			"260"
 		"autoResize"	"3"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
-		"textAlignment"	"northwest"
+		"textAlignment"	"north-west"
 		"fgcolor"		"Gray"
 	}
 
@@ -68,11 +68,11 @@
 	{
 		"ControlName"		"HTML"
 		"fieldName"		"HTMLMessage"
-		"xpos"			"c-320"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"10"
 		"zpos"			"1"
-		"wide"			"640"
-		"tall"			"430"
+		"wide"			"580"
+		"tall"			"360"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -80,7 +80,7 @@
 		"tabPosition"		"0"
 		"paintborder"	"0"
 	}
-	
+
 	"ok"
 	{
 		"ControlName"		"CExButton"
@@ -95,23 +95,23 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"#TF_Continue"
+		"labelText"		"CONTINUE (&E) "
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"HudFont12Shadow"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -119,7 +119,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
@@ -132,7 +132,7 @@
 			"origin_z" "-39"
 		}
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -146,17 +146,16 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
+		"tabPosition"	"0"
+		"fillcolor"		"0 0 0 180"
 		"PaintBackgroundType"	"0"
-	}						
-	
+	}
+
 	"MessageTitle"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"MessageTitle"
 		"visible"		"0"
 		"enabled"		"0"
-	}		
+	}
 }

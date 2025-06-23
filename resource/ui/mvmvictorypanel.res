@@ -9,11 +9,11 @@
 		"wide"			"536"
 		"tall"			"230"
 		"visible"		"1"
-		
+
 		//"PaintBackgroundType"	"0"
 		//"paintbackground"	"0"
 		//"border"		"MainMenuHighlightBorder"
-		
+
 		"StatsBackground"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -30,11 +30,11 @@
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
-		
+
 			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
-		
+
 		"HeaderContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -49,7 +49,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"HeaderShadow"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"%headershadow%"
 				"textAlignment" "center"
 				"xpos"			"1"
@@ -58,12 +58,12 @@
 				"tall"			"40"
 				"fgcolor"		"Black"
 			}
-			
+
 			"HeaderLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"HeaderLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"%header%"
 				"textAlignment" "center"
 				"xpos"			"0"
@@ -73,12 +73,12 @@
 				"fgcolor"		"Orange"
 			}
 		}
-	
+
 		"CreditLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "north-west"
 			"xpos"			"80"
@@ -87,7 +87,7 @@
 			"tall"			"40"
 			"fgcolor"		"tanlight"
 		}
-			
+
 		"CreditContainer"
 		{
 			"ControlName"	"CCreditDisplayPanel"
@@ -110,12 +110,12 @@
 			"tall"			"400"
 			"autoResize"	"1"
 			"visible"		"1"
-			
+
 			"RatingLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RatingLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"%ratinglabel%"
 				"textAlignment" "center"
 				"xpos"			"0"
@@ -124,12 +124,12 @@
 				"tall"			"40"
 				"fgcolor"		"tanlight"
 			}
-			
+
 			"RatingTextShadow"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RatingTextShadow"
-				"font"			"HudFontGiantBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"%ratingscore%"
 				"textAlignment" "center"
 				"xpos"			"1"
@@ -138,12 +138,12 @@
 				"tall"			"50"
 				"fgcolor"		"Black"
 			}
-			
+
 			"RatingText"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RatingText"
-				"font"			"HudFontGiantBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"%ratingscore%"
 				"textAlignment" "center"
 				"xpos"			"0"
@@ -153,7 +153,7 @@
 				"fgcolor"		"White"
 			}
 		}
-		
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
@@ -181,19 +181,19 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#DoneButton"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"done"
 
 		"pin_to_sibling"               "StatsContainer"
-		"pin_corner_to_sibling"        "1"          
-		"pin_to_sibling_corner"        "3" 
+		"pin_corner_to_sibling"        "1"
+		"pin_to_sibling_corner"        "3"
 	}
 }

@@ -13,13 +13,13 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"DarkGray"
+		"infocus_bgcolor_override" "DarkGray"
+		"outoffocus_bgcolor_override" "DarkGray"
 		
-		"thumbnail_bgcolor"			"51 47 46 255"
-		"thumbnail_bgcolor_mouseover"	"156 146 128 255"
-		"thumbnail_bgcolor_selected"	"176 166 148 255"
+		"thumbnail_bgcolor"			"DarkerGray"
+		"thumbnail_bgcolor_mouseover"	"144 144 144 255"
+		"thumbnail_bgcolor_selected"	"188 188 188 255"
 		
 		"thumbnails_rows"		"4"
 		"thumbnails_columns"	"4"
@@ -55,6 +55,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -136,12 +137,12 @@
 		"unicode"			"0"
 		
 		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"51 47 46 255"
+		"bgcolor_override"	"DarkerGray"
 		"disabledFgColor_override" "235 226 202 255"
-		"disabledBgColor_override" "51 47 46 255"
-		"selectionColor_override" "51 47 46 255"
+		"disabledBgColor_override" "DarkerGray"
+		"selectionColor_override" "DarkerGray"
 		"selectionTextColor_override" "235 226 202 255"
-		"defaultSelectionBG2Color_override" "51 47 46 255"
+		"defaultSelectionBG2Color_override" "DarkerGray"
 	}
 	
 	"DataPanel"
@@ -203,7 +204,7 @@
 		
 		"model_hide"	"1"
 		"text_center"	"1"
-		"resize_to_text" "1"
+		"resize_to_text" "0"
 		
 		"itemmodelpanel"
 		{
@@ -248,28 +249,28 @@
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"10000"
-		"wide"			"250"
-		"tall"			"180"
+		"wide"			"200"
+		"tall"			"150"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
-		"text_ypos"			"20"
-		"text_center"		"1"
+		"text_ypos"			"15"
+		"text_center_x"		"1"
+		"model_center_x"	"1"
 		"model_hide"		"0"
-		"resize_to_text"	"0"
+		"resize_to_text"	"1"
 		"padding_height"	"15"
 		"name_only"			"1"
 		
-		"model_ypos"	"40"
-		"model_xpos"	"50"
-		"model_wide"	"156"
+		"model_ypos"	"15"
+		"model_wide"	"150"
 		"model_tall"	"100"
 		
-		"text_forcesize"	"1"
-		"is_mouseover"		"1"
+
+		"hide_collection_panel"		"1"
 		
 		"itemmodelpanel"
 		{
@@ -400,18 +401,18 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StoreButton"
-		"xpos"			"c-138"
-		"ypos"			"323"
+		"xpos"			"c-295"
+		"ypos"			"290"
 		"zpos"			"20"
-		"wide"			"200"
-		"tall"			"25"
+		"wide"			"160"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ArmoryButton_Store"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -441,6 +442,30 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"reloadscheme"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+
+	"PrevPageShortcut"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"			"PrevPageShortcut"
+		"wide"				"0"
+		"visible"			"1"
+		"labelText"			"&A"
+		"Command"			"prevpage"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+
+	"NextPageShortcut"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"			"NextPageShortcut"
+		"wide"				"0"
+		"visible"			"1"
+		"labelText"			"&D"
+		"Command"			"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

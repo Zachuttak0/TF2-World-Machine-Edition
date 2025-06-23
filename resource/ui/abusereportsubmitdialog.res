@@ -16,7 +16,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"#AbuseReport_DialogTitle"
 		"textAlignment"	"north-west"
 		"xpos"			"10"
@@ -38,7 +38,7 @@
 		"wide"		"170"
 		"tall"		"20"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 	}
 
 	"PlayerRadio"
@@ -52,7 +52,7 @@
 		"wide"		"170"
 		"tall"		"20"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 	}
 
 	"PlayerLabel"
@@ -66,7 +66,7 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 	}
 
 	"PlayerComboBox"
@@ -79,7 +79,7 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 
 		//"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
@@ -94,14 +94,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"AbuseContentLabel"
-		"labelText"		"#AbuseReport_ContentLabel"
+		"labelText"		"Abusive content:"
 		"xpos"		"10"
 		"ypos"		"130"
 		"zpos"		"-1"
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 	}
 
 	"AbuseContentComboBox"
@@ -114,7 +114,7 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 
 		//"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
@@ -136,7 +136,7 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 	}
 
 	"AbuseTypeComboBox"
@@ -149,7 +149,7 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 
 		//"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
@@ -181,8 +181,8 @@
 		"zpos"			"1"
 		"wide"			"360"
 		"tall"			"18"
-		"labelText"		"#AbuseReport_UploadScreenshot"
-		"font"			"HudFontSmall"
+		"labelText"		"Screenshot shows abuse; upload it with report."
+		"font"			"HudFont14"
 		"textAlignment"	"west"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -212,7 +212,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#AbuseReport_NoAvatar"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"centerwrap"	"1"
 	}
 
@@ -243,7 +243,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_LessThan"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"dulltext"		"0"
@@ -251,8 +251,8 @@
 		"Command"		"prevcustomtexture"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 	"CustomTextureNextButton"
 	{
 		"ControlName"	"CExButton"
@@ -268,7 +268,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_GreaterThan"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"dulltext"		"0"
@@ -276,8 +276,8 @@
 		"Command"		"nextcustomtexture"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 	"NoCustomTexturesLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -289,7 +289,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#AbuseReport_NoCustomTextures"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"centerwrap"	"1"
 	}
 
@@ -304,7 +304,7 @@
 		"wide"		"140"
 		"tall"		"15"
 		"editable"		"0"
-		"font"		"HudFontSmall"
+		"font"		"HudFont14"
 	}
 
 	"DescriptionTextEntry"
@@ -316,7 +316,7 @@
 		"zpos"		"-1"
 		"wide"		"540"
 		"tall"		"90"
-		"font"		"HudFontSmall"
+		"font"		"HudFont14"
 		//"bgcolor_override"		"117 107 95 255"
 		"bgcolor_override"		"0 0 0 255"
 		"fgcolor_override"		"202 190 164 255"
@@ -334,7 +334,7 @@
 		"wide"			"130"
 		"tall"			"25"
 		"labelText"		"#AbuseReport_Discard"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"Command"		"discard"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -351,7 +351,7 @@
 		"wide"			"130"
 		"tall"			"25"
 		"labelText"		"#AbuseReport_Submit"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"Command"		"submit"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -368,7 +368,7 @@
 		"wide"			"130"
 		"tall"			"25"
 		"labelText"		"#AbuseReport_SaveForLater"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"

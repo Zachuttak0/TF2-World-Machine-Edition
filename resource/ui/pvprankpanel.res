@@ -6,7 +6,7 @@
 		"fieldName"		"ModelContainer"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-		"zpos"			"3"		
+		"zpos"			"3"
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
@@ -42,7 +42,7 @@
 				}
 			}
 
-			"paintbackground"	"0"	
+			"paintbackground"	"0"
 		}
 
 		"RankModel"
@@ -51,7 +51,7 @@
 			"fieldName"		"RankModel"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
-			"zpos"			"0"		
+			"zpos"			"0"
 			"wide"			"o1"
 			"tall"			"p0.12"
 			"autoResize"	"0"
@@ -72,7 +72,7 @@
 			"paintbackground"	"0"
 
 			"render_texture"	"0"
-		
+
 			"model"
 			{
 				"force_pos"		"1"
@@ -97,7 +97,7 @@
 					"default"	"1"
 				}
 			}
-		
+
 			"lights"
 			{
 				"default"
@@ -169,8 +169,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5+2"
 			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"42"
+			"wide"			"0"
+			"tall"			"0"
 			"proportionaltoparent"	"1"
 			"command"	"medal_clicked"
 			"actionsignallevel"	"2"
@@ -206,15 +206,15 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
+			"xpos"			"5"
 			"ypos"			"5"
 			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallishBold"
-			"fgcolor_override"	"TanLight"
+			"font"			"HudFont14Shadow"
+			"fgcolor_override"	"FullWhite"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
@@ -229,15 +229,15 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"65"
+			"xpos"			"5"
 			"ypos"			"19"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
+			"font"			"HudFont11Shadow"
+			"fgcolor_override"	"FullWhite"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
@@ -250,9 +250,7 @@
 
 			"fonts"
 			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"0"		"HudFont11Shadow"
 			}
 		}
 
@@ -260,15 +258,15 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
+			"xpos"			"5"
 			"ypos"			"29"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
+			"font"			"HudFont11Shadow"
+			"fgcolor_override"	"FullWhite"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
@@ -281,15 +279,13 @@
 
 			"fonts"
 			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"0"		"HudFont11Shadow"
 			}
 
 			"colors"
 			{
-				"1"		"CreditsGreen"
-				"2"		"TanLight"
+				"1"		"THOverheal"
+				"2"		"FullWhite"
 			}
 		}
 
@@ -297,7 +293,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-5"
+			"xpos"			"rs1-65"
 			"ypos"			"0"
 			"wide"			"f70"
 			"tall"			"f0"
@@ -305,7 +301,7 @@
 
 			if_mini
 			{
-				"xpos"			"rs1-10"
+				"xpos"			"rs1"
 				"ypos"			"0"
 				"wide"			"p0.85"
 			}
@@ -320,7 +316,7 @@
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
-	
+
 
 				"CurrentXPLabel"
 				{
@@ -334,7 +330,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"FullWhite"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
@@ -352,7 +348,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"FullWhite"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
@@ -380,8 +376,8 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"20 20 20 180"
-						"bgcolor_override"	"0 0 0 0"
+						"fgcolor_override"	"0 0 0 0"
+						"bgcolor_override"	"Blank"
 					}
 
 					"ContinuousProgressBar"
@@ -395,7 +391,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"CreditsGreen"
+						"fgcolor_override"	"THOverheal2"
 					}
 
 					"Frame"
@@ -444,7 +440,7 @@
 				}
 
 
-	
+
 				// First column
 				"GamesLabel"
 				{
@@ -457,8 +453,8 @@
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"font"			"HudFont11Bold"
+					"fgcolor_override"	"FullWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_games%"
 					"proportionaltoparent"	"1"
@@ -475,8 +471,8 @@
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"font"			"HudFont11Bold"
+					"fgcolor_override"	"FullWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_kills%"
 					"proportionaltoparent"	"1"
@@ -493,8 +489,8 @@
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"font"			"HudFont11Bold"
+					"fgcolor_override"	"FullWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_deaths%"
 					"proportionaltoparent"	"1"
@@ -512,8 +508,8 @@
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"font"			"HudFont11Bold"
+					"fgcolor_override"	"FullWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_damage%"
 					"proportionaltoparent"	"1"
@@ -530,8 +526,8 @@
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"font"			"HudFont11Bold"
+					"fgcolor_override"	"FullWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_healing%"
 					"proportionaltoparent"	"1"
@@ -548,8 +544,8 @@
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"font"			"HudFont11Bold"
+					"fgcolor_override"	"FullWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_support%"
 					"proportionaltoparent"	"1"
@@ -567,8 +563,8 @@
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"font"			"HudFont11Bold"
+					"fgcolor_override"	"FullWhite"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_score%"
 					"proportionaltoparent"	"1"

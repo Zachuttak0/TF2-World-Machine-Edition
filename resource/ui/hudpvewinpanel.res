@@ -12,15 +12,15 @@
 		"image"			"../hud/tournament_panel_brown"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		
+
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 
 	"WaveCompleteContainer"
@@ -33,12 +33,12 @@
 		"tall"			"24"
 		"visible"		"1"
 		"PaintBackgroundType" "2"
-		
+
 		"WinningTeamLabelDropshadow"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFont18Bold"
 			"fgcolor"		"black"
 			"xpos"			"3"
 			"ypos"			"3"
@@ -52,18 +52,18 @@
 			"textAlignment"		"Center"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			
+
 			// blue Background
 			"PaintBackgroundType" "2"
-			"fgcolor_override"	"black"		
+			"fgcolor_override"	"black"
 			"bgcolor_override"	"91 122 142 200"
 		}
-		
+
 		"WinningTeamLabel"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFont18Bold"
 			"xpos"			"2"
 			"ypos"			"2"
 			"wide"			"295"
@@ -76,12 +76,12 @@
 			"textAlignment"		"Center"
 		}
 	}
-	
+
 	"WinReasonLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"xpos"			"0"
 		"ypos"			"80"
 		"zpos"			"1"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"xpos"			"15"
 		"ypos"			"100"
 		"zpos"			"1"
@@ -135,9 +135,9 @@
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 
 	"RespecContainer"
@@ -150,12 +150,12 @@
 		"tall"			"25"
 		"visible"		"1"
 		"PaintBackgroundType" "2"
-	
+
 		"RespecTextLabelLoss"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecTextLabelLoss"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"#TF_PVE_Respecs"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -164,12 +164,12 @@
 			"tall"			"20"
 			"fgcolor"		"tanlight"
 		}
-		
+
 		"RespecCountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecCountLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"%respeccount%"
 			"textAlignment" "center"
 			"xpos"			"145"

@@ -16,7 +16,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"textAlignment"	"center"
 		"labelText"		"#Frame_Untitled"
 		"xpos"			"10"
@@ -36,7 +36,7 @@
 		"zpos"		"-1"
 		"wide"		"540"
 		"tall"		"280"
-		"font"		"HudFontSmall"
+		"font"		"HudFont14"
 		"textAlignment"	"north-west"
 		"labelText"		""
 		"bgcolor_override"		"0 0 0 255"
@@ -63,7 +63,7 @@
 		"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"ButtonDone"
@@ -86,6 +86,6 @@
 		"wrap"		"0"
 		"Command"		"Done"
 		"Default"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 }

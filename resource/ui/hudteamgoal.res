@@ -19,15 +19,14 @@
 		"teambg_3"		"../hud/death_panel_blue_bg"
 	}
 	"SwitchLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"SwitchLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"xpos"			"80"
-		"ypos"			"25"
+		"ypos"			"20"
 		"zpos"			"1"
-		"wide"			"220"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"220"
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -38,12 +37,12 @@
 		"textAlignment"		"North"
 	}
 	"GoalLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"GoalLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"xpos"			"80"
-		"ypos"			"40"
+		"ypos"			"35"
 		"zpos"			"1"
 		"wide"			"220"
 		"wide_hidef"	"200"

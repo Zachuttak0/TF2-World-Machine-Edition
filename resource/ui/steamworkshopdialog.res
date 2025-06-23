@@ -101,7 +101,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"#TF_SteamWorkshop_Title"
 				"textAlignment"	"center"
 				"xpos"			"0"
@@ -120,7 +120,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontSmall"
+				"font"			"HudFont14"
 				"labelText"		"#TF_SteamWorkshop_Desc"
 				"textAlignment"	"north"
 				"xpos"			"20"
@@ -151,7 +151,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"#TF_SteamWorkshop_LearnHow"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"Command"		"learn_more"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -181,7 +181,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFont24Bold"
 				"labelText"		"#TF_SteamWorkshop_YourItems"
 				"textAlignment"	"west"
 				"xpos"			"15"
@@ -195,7 +195,7 @@
 				"enabled"		"1"
 				"fgcolor_override" "86 78 68 255"
 			}
-			
+
 			"SteamWorkshopItem0"
 			{
 				"ControlName"	"CSteamWorkshopItemPanel"
@@ -243,7 +243,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 			}
-		
+
 			"PrevPageButton"
 			{
 				"ControlName"	"CExButton"
@@ -259,15 +259,15 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"<"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"Command"		"prevpage"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}		
-			
+			}
+
 			"PrevPageSkipButton"
 			{
 				"ControlName"	"CExButton"
@@ -283,15 +283,15 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"<<"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"Command"		"prevpageskip"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}	
-			
+			}
+
 			"SkipToStartButton"
 			{
 				"ControlName"	"CExButton"
@@ -307,20 +307,20 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"|<"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"Command"		"skiptostart"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}								
-			
+			}
+
 			"CurPageLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"CurPageLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"labelText"		"%page%"
 				"textAlignment"	"center"
 				"xpos"			"406"
@@ -334,7 +334,7 @@
 				"enabled"		"1"
 				"fgcolor_override" "200 80 60 255"
 			}
-			
+
 			"NextPageButton"
 			{
 				"ControlName"	"CExButton"
@@ -350,14 +350,14 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		">"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"Command"		"nextpage"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}	
+			}
 
 			"NextPageSkipButton"
 			{
@@ -374,14 +374,14 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		">>"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"Command"		"nextpageskip"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}	
+			}
 
 			"SkipToEndButton"
 			{
@@ -398,15 +398,15 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		">|"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"Command"		"skiptoend"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}	
-		
+			}
+
 			"ViewPublishedButton"
 			{
 				"ControlName"	"CExButton"
@@ -422,7 +422,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"#TF_SteamWorkshop_ViewPublished"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"textinsetx"	"50"
 				"dulltext"		"0"
@@ -431,7 +431,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
-		
+
 			"EditButton"
 			{
 				"ControlName"	"CExImageButton"
@@ -447,17 +447,17 @@
 				"tabPosition"	"0"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				
+
 				"labelText"		"#TF_SteamWorkshop_Edit"
 				"command"		"edit"
-				
+
 				"image_drawcolor"	"235 226 202 255"
 				"image_disabledcolor" "0 0 0 255"
 
@@ -474,7 +474,7 @@
 					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_edit"
-				}		
+				}
 			}
 
 			"ViewButton"
@@ -492,17 +492,17 @@
 				"tabPosition"	"0"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				
+
 				"labelText"		"#TF_SteamWorkshop_View"
-				"command"		"view"				
-				
+				"command"		"view"
+
 				"image_drawcolor"	"235 226 202 255"
 				"image_disabledcolor" "0 0 0 255"
 
@@ -519,7 +519,7 @@
 					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_view"
-				}		
+				}
 			}
 
 			"DeleteButton"
@@ -537,17 +537,17 @@
 				"tabPosition"	"0"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				
+
 				"labelText"		"#TF_SteamWorkshop_Delete"
 				"command"		"delete_item"
-				
+
 				"image_drawcolor"	"235 226 202 255"
 				"image_disabledcolor" "0 0 0 255"
 
@@ -564,7 +564,7 @@
 					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_delete"
-				}		
+				}
 			}
 		}
 
@@ -583,7 +583,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_BrowseTheWorkshop"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"Command"		"browse"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -611,7 +611,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_Test"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"Command"		"itemtest"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -640,7 +640,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_Publish"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"Command"		"publish"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -651,7 +651,7 @@
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-		}		
+		}
 
 		"LearnMore2Button"
 		{
@@ -668,7 +668,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_Instructions"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"Command"		"learn_more"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -690,7 +690,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_Legal"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -715,7 +715,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_Close"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -723,6 +723,6 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}			
+		}
 	}
 }

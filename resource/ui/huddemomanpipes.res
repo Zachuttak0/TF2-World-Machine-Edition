@@ -10,61 +10,61 @@
 		"wide"			"76"
 		"wide_minmode"	"56"
 		"tall"			"38"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"					"25"
-		"ypos"					"27"
+		"xpos"					"0"
+		"ypos"					"15"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
+		"visible"				"0"
 		"visible_minmode"		"0"
-		"enabled"				"1"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Charge"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
+		"pin_to_sibling"		"ChargeMeter"
 	}
 
 	"ChargeMeter"
-	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ChargeMeter"
-		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
-		"zpos"					"2"
-		"wide"					"40"
-		"wide_minmode"			"50"
-		"tall"					"6"				
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
-	}				
-		
+	{
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ChargeMeter"
+		"font"			"Default"
+		"xpos"			"0"
+		"xpos_minmode"	"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"120"
+		"tall"			"6"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"bgcolor_override"	"ItemMeterBG"
+	}
+
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -75,7 +75,7 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
-		
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -87,22 +87,20 @@
 			"wide_minmode"	"14"
 			"tall"			"20"
 			"tall_minmode"	"14"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/ico_stickybomb_red"
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red"
-			"teambg_3"		"../hud/ico_stickybomb_blue"	
-		}	
-		
+			"teambg_3"		"../hud/ico_stickybomb_blue"
+		}
+
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"50"
-			"xpos_minmode"	"42"
 			"ypos"			"18"
-			"ypos_minmode"	"12"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -116,18 +114,17 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
+			"font"			"HudFont24"
+			"font_minmode"	"HudFont14"
+			"fgcolor"		"FullWhite"
 			"font_lodef"	"HudFontMediumBig"
 		}
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"51"
-			"xpos_minmode"	"43"
-			"ypos"			"19"
-			"ypos_minmode"	"13"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -141,13 +138,14 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
+			"font"			"HudFont24"
+			"font_minmode"	"HudFont14"
 			"font_lodef"	"HudFontMediumBig"
-			"fgcolor"		"black"
-		}		
+			"fgcolor"		"Black"
+			"pin_to_sibling" "NumPipesLabel"
+		}
 	}
-	
+
 	"NoPipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -158,7 +156,7 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
-		
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -170,12 +168,12 @@
 			"wide_minmode"	"14"
 			"tall"			"20"
 			"tall_minmode"	"14"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/ico_stickybomb_red_faded"
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red_faded"
-			"teambg_3"		"../hud/ico_stickybomb_blue_faded"	
+			"teambg_3"		"../hud/ico_stickybomb_blue_faded"
 		}
 
 		"NumPipesLabel"
@@ -199,9 +197,11 @@
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
+			"font"			"HudFont24"
+			"font_minmode"	"HudFont14"
 			"font_lodef"	"HudFontMediumBig"
+			"fgcolor"		"FullWhite"
+
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -224,10 +224,10 @@
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
+			"font"			"HudFont24"
+			"font_minmode"	"HudFont14"
 			"font_lodef"	"HudFontMediumBig"
-			"fgcolor"		"black"
-		}			
-	}				
+			"fgcolor"		"Black"
+		}
+	}
 }

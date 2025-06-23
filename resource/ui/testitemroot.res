@@ -15,12 +15,12 @@
 		"paintborder"			"0"
 		"paintbackground"		"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"#IT_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -34,7 +34,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
+
 	"ClassUsagePanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -46,12 +46,12 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 128"
-		
+
 		"ClassUsageLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ClassUsageLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_ClassUsage"
 			"textAlignment"	"west"
 			"xpos"			"5"
@@ -64,7 +64,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		
+
 		"ClassCheckBox0"
 		{
 			"ControlName"	"CheckButton"
@@ -264,9 +264,9 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
-		}	
+		}
 	}
-	
+
 	"TestingPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -278,12 +278,12 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 128"
-	
+
 		"CurrentlyTestingLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurrentlyTestingLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_CurrentlyTesting"
 			"textAlignment"	"west"
 			"xpos"			"5"
@@ -296,12 +296,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		
+
 		"TestingWeaponLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TestingWeaponLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_TestingSlot_Weapon"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -348,7 +348,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Item_Add"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -372,7 +372,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Item_Remove"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -385,7 +385,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TestingHeadgearLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_TestingSlot_Headgear"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -432,7 +432,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Item_Add"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -456,7 +456,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Item_Remove"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -469,7 +469,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TestingMisc1Label"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_TestingSlot_Misc1"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -516,7 +516,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Item_Add"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -540,7 +540,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Item_Remove"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -553,7 +553,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TestingMisc2Label"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_TestingSlot_Misc2"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -600,7 +600,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Item_Add"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -624,7 +624,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Item_Remove"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -634,7 +634,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
-	
+
 	"BotAdditionPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -646,12 +646,12 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 128"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_BotControl_Title"
 			"textAlignment"	"west"
 			"xpos"			"5"
@@ -664,7 +664,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		
+
 		"AutoAddBotsCheckBox"
 		{
 			"ControlName"	"CheckButton"
@@ -684,8 +684,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
-		}	
-		
+		}
+
 		"BotsOnBlueTeamCheckBox"
 		{
 			"ControlName"	"CheckButton"
@@ -706,7 +706,7 @@
 			"brighttext"	"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
-		
+
 		"AddBotButton"
 		{
 			"ControlName"	"CExButton"
@@ -722,7 +722,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Bot_Add"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -731,12 +731,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
-				
+
 		"BotSelectionComboBox"
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"BotSelectionComboBox"
-			"Font"				"HudFontSmallest"
+			"Font"				"HudFont11Bold"
 			"xpos"				"95"
 			"ypos"				"45"
 			"zpos"				"1"
@@ -752,7 +752,7 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			
+
 			"fgcolor_override"	"235 226 202 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
@@ -761,7 +761,7 @@
 			"selectionTextColor_override" "235 226 202 255"
 			"defaultSelectionBG2Color_override" "251 235 202 255"
 		}
-		
+
 		"KickAllBotsButton"
 		{
 			"ControlName"	"CExButton"
@@ -777,7 +777,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#IT_Bot_RemoveAll"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -787,7 +787,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
-	
+
 	"TestItemBotControls"
 	{
 		"fieldName"				"TestItemBotControls"
@@ -799,7 +799,7 @@
 		"tall"					"200"
 		"bgcolor_override"		"0 0 0 128"
 	}
-	
+
 	"ExportButton"
 	{
 		"ControlName"	"CExButton"
@@ -815,7 +815,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_ExportLoadout"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -839,7 +839,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_ImportLoadout"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -863,7 +863,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_ImportLast"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -872,7 +872,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -888,7 +888,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -912,7 +912,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_Ok"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -949,7 +949,7 @@
 			"textinsetx"	"25"
 			"textalignment" "center"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -959,7 +959,7 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-					
+
 			"image_armedcolor"	"235 226 202 255"
 			"image_drawcolor"	"235 226 202 255"
 			"image_selectedcolor"	"46 43 42 255"
@@ -976,10 +976,10 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"glyph_steamworkshop"
-			}		
+			}
 		}
 	}
-	
+
 	"ReloadSchemeButton"
 	{
 		"ControlName"	"CExButton"
@@ -995,7 +995,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"R"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

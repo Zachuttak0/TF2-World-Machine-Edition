@@ -1,5 +1,33 @@
-"GameMenu" [$WIN32]
+"GameMenu"
 {
+
+	"Version"
+	{
+		"label"										"technohud 0.51-HF1"
+		"command"									"engine showconsole; clear; echo technohud v0.51-HF1; echo by techno, using some bits of other huds by various people. (check github for credits); echo github.com/tekunotri/technohud"
+		"OnlyAtMenu"								"0"
+	}
+	"Servers"
+	{
+		"label"										"Servers"
+		"command"									"OpenServerBrowser"
+	}
+	"Items"
+	{
+		"label"										"Items"
+		"command"									"engine open_charinfo"
+	}
+	"Store"
+	{
+		"label"										"Store (Scam)"
+		"command"									"engine open_store"
+	}
+	"Quickplay"
+	{
+		"label"										"¥"
+		"command"									"engine replay_reloadbrowser"
+	}
+
 	"VRModeButton"
 	{
 		"label" "#MMenu_VRMode_Activate"
@@ -41,5 +69,11 @@
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
+	}
+	"Disconnect"
+	{
+		"label"			"Disconnect"
+		"command"		"engine disconnect"
+		"OnlyInGame"	"1"
 	}
 }

@@ -25,19 +25,19 @@
 			"zpos"			"110"
 			"wide"			"o1"
 			"tall"			"60"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
 			"matchgroup"	"MatchGroup_Casual_12v12"
 		}
-	
+
 		"RankPanel"
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
-			"xpos"			"-70"
+			"xpos"			"-65"
 			"ypos"			"-35"
 			"zpos"			"100"
 			"wide"			"330"
@@ -67,7 +67,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -110,7 +110,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -153,7 +153,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"?"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -177,8 +177,8 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_MapSelection"
 			"textAlignment"	"north-west"
-			"font"			"HudFontMediumSmallBold"
-		
+			"font"			"HudFont18Bold"
+
 			"mouseinputenabled"	"0"
 		}
 
@@ -194,9 +194,9 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"fgcolor_override"	"TanDark"
-		
+
 			"mouseinputenabled"	"1"
 		}
 
@@ -212,11 +212,11 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_QueueEstimation"
 			"textAlignment"	"east"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"fgcolor_override"	"TanLight"
 			"textinsetx"	"5"
 			"visible"	"0"
-		
+
 			"mouseinputenabled"	"0"
 		}
 
@@ -266,14 +266,14 @@
 				{
 					"fgcolor_override"	"TanDark"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"UpButton"
 					"visible"		"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"	"Button"

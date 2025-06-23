@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ComptTitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"#TF_Support_Message_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -43,7 +43,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionOneTextLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"%text%" // Filled with the CS message
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"

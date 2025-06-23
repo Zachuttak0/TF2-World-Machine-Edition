@@ -1,28 +1,27 @@
-"Resource/UI/build_menu/base_cant_afford.res"
+	"Resource/UI/build_menu/base.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"Default"
-		"xpos"			"6"
-		"ypos"			"0"
+		"font"			"HudFont12"
+		"xpos"			"3"
+		"ypos"			"2"
 		"zpos"			"1"
-		"wide"			"84"
+		"wide"			"60"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
-		"labelText_lodef"		"#TF_Object_Sentry_360"
-		"textAlignment"	"Left"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
-	
-	"ItemBackground"	
+
+	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
@@ -31,23 +30,22 @@
 		"zpos"			"0"
 		"wide"			"98"
 		"tall"			"105"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_menu_item_bg_outline"
+		"scaleImage"	"1"
+		"icon"			"hud_menu_item_bg"
 		"iconColor"		"0 0 0 255"
 	}
-	
+
 	"CantBuildReason"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"Default"
-		"fgcolor"		"RedSolid"
-		"xpos"			"10"
-		"ypos"			"48"
+		"font"			"HudFont9"
+		"xpos"			"4"
+		"ypos"			"24"
 		"zpos"			"2"
-		"wide"			"80"
+		"wide"			"60"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -55,32 +53,35 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cant_Afford"
 		"textAlignment"	"Center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"fgcolor"		"RedSolid"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"10"
-		"ypos"			"18"
+		"xpos"			"19"
+		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"1"
 		"icon"			"ico_metal"
 		"iconColor"		"RedSolid"
 	}
-	
+
 	"CostLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont15"
 		"fgcolor"		"RedSolid"
-		"xpos"			"23"
-		"ypos"			"17"
+		"xpos"			"25"
+		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"13"
@@ -91,9 +92,9 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"Left"
 	}
-	
+
 	"ModeLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
 		"font"			"DefaultSmall"
@@ -108,39 +109,39 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"	"East"	
+		"textAlignment"	"East"
 	}
-	
-	"NumberBg"	
+
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
-		"xpos"			"41"
-		"ypos"			"99"
+		"xpos"			"25"
+		"ypos"			"63"
 		"zpos"			"0"
 		"wide"			"18"
 		"tall"			"18"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"0 255 0 255"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"HudMenuNumberFont"
 		"fgcolor"		"Black"
-		"xpos"			"0"
-		"ypos"			"98"
+		"xpos"			"6"
+		"ypos"			"62"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"56"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"1"
 		"textAlignment"	"Center"
@@ -148,3 +149,4 @@
 		"brighttext"	"0"
 	}
 }
+

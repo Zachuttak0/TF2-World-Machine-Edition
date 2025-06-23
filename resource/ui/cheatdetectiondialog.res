@@ -14,10 +14,10 @@
 	}
 
 	"TitleLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"xpos"			"0"
 		"ypos"			"13"
 		"zpos"			"1"
@@ -33,10 +33,10 @@
 		"fgcolor_override" "200 80 60 255"
 	}
 	"ExplanationLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"xpos"			"20"
 		"ypos"			"35"
 		"zpos"			"1"
@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_Ok"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

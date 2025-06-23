@@ -1,141 +1,208 @@
 #base "SourceSchemeBase.res"
-
+//created using the ToonHUD source scheme editor because i dont like messing with this file
 Scheme
 {
-    //////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
 	Colors
 	{
-	    "TFDarkBrown"               "60 56 53 255"
-	    "TFDarkBrownTransparent"    "60 56 53 190"
-	    "TFTanBright"               "236 227 203 150"
-	    "TFTanLight"                "201 188 162 150"
-	    "TFTanMedium"               "131 121 104 150"
-	    
-	    "TFTanLightBright"          "229 223 211 90"
-	    "TFTanLightDark"            "96 90 78 90"
-	    
-	    "TFOrangeBright"            "156 82 33 255"
-	    
-	    "TFTextBright"              "251 236 203 150"
-	    "TFTextLight"               "201 188 162 255"
-	    "TFTextMedium"              "131 121 104 255"
-	    "TFTextMediumDark"          "104 96 83 255"
-	    "TFTextBlack"               "42 39 37 255"
-	    "TFTextDull"                "131 121 104 255"
+	
+		"G_ActiveWindow"			"40 40 40 255" // Active window bg color
+		"G_InctiveWindow"			"40 40 40 245" // Inactive window bg color
+		"G_TitleBg"					"40 40 40 255" // Title bg color
+		"G_TitleText"				"236 236 236 255" // Title text color
+		"G_Highlight"				"120 120 120 255" // Highlight color
+		"G_ConsoleBg"				"20 20 20 255" // Console bg color
+		"G_ListBg"					"20 20 20 255" // List bg color
+		"G_Border"					"20 20 20 102" // Border color
+		"G_Text"					"236 236 236 255" // Text color
+		"G_HighlightText"			"236 236 236 255" // Highlight text color
+		"G_SelectedText"			"236 236 236 255" // Selected text color
+		"G_DisabledText"			"236 236 236 64" // Disabled text color
+		"G_ButtonBg"				"40 40 40 255" // Button bg color
+		"G_ButtonText"				"236 236 236 255" // Button text color
+		"G_ButtonHoverBg"			"120 120 120 255" // Button hover bg color
+		"G_ButtonHoverText"			"236 236 236 255" // Button hover text color
+		"G_InputBg"					"20 20 20 255" // Input bg color
+		"G_Light"					"255 255 255 50"
+		"G_Dark"					"0 0 0 50"
+	
+		// ------------------------------------------
+		
+		"TFDarkBrown"               "60 56 53 255"
+		"TFDarkBrownTransparent"    "60 56 53 190"
+		"TFTanBright"               "236 236 236 255"
+		"TFTanLight"                "236 236 236 255"
+		"TFTanMedium"               "131 121 104 150"
+		"TFTanLightBright"          "229 223 211 90"
+		"TFTanLightDark"            "96 90 78 90"
+		"TFOrangeBright"            "156 82 33 255"
+		"TFTextBright"              "251 236 203 150"
+		"TFTextLight"               "201 188 162 255"
+		"TFTextMedium"              "131 121 104 255"
+		"TFTextMediumDark"          "104 96 83 255"
+		"TFTextBlack"               "42 39 37 255"
+		"TFTextDull"                "131 121 104 255"
+		"TFMediumBrown"				"69 64 58 255"
 
-	    "TFMediumBrown"		"69 64 58 255"
+		"QuickListBGDeselected"		"0 0 0 0"
+		"QuickListBGSelected"       "120 120 120 255" // Highlight color
 
-	    "QuickListBGDeselected"		"69 64 58 255"
-	    "QuickListBGSelected"               "131 121 104 150"
-	    
-	    "Blank"				"0 0 0 0"
-	    
+		"Blank"				"0 0 0 0"
+
 	    // background colors
 		"ControlBG"			"76 88 68 255"		// background color of controls
 		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
 		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"90 84 75 255"	// background color of any selected text or menu item
+		"SelectionBG"		"90 84 75 255"		// background color of any selected text or menu item
 		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
 		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
 	}
 	BaseSettings
 	{
 		// scheme-specific colors
-		Border.Bright					"TFTanLightDark"	// the lit side of a control
-		Border.Dark						"TFTanLightDark"		// the dark/unlit side of a control
-		Border.Selection				"BorderSelection"			// the additional border color for displaying the default/selected button
+		Border.Bright					"G_Border"	// the lit side of a control
+		Border.Dark						"G_Border"	// the dark/unlit side of a control
+		Border.Selection				"G_Border"	// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TFDarkBrown"
-		Button.BgColor					"TFTanLight"
-		Button.ArmedTextColor			"TFDarkBrown"
-		Button.ArmedBgColor				"TFTanBright"
-		Button.DepressedTextColor		"TFDarkBrown"
-		Button.DepressedBgColor			"TFTanLight"	
-		Button.FocusBorderColor			"TransparentBlack"
+		// Buttons and tabs
+		Button.TextColor				"G_ButtonText"
+		Button.BgColor					"G_ButtonBg"
+		Button.ArmedTextColor			"G_ButtonHoverText"
+		Button.ArmedBgColor				"G_ButtonHoverBg"
+		Button.DepressedTextColor		"G_ButtonHoverText"
+		Button.DepressedBgColor			"G_ButtonHoverBg"	
+		Button.FocusBorderColor			"G_ButtonHoverBg"
 		
-		CheckButton.TextColor			"TFTextBright"
-		CheckButton.SelectedTextColor		"TFTextBright"
-		CheckButton.BgColor				"ListBG"
-		CheckButton.HighlightFgColor		"TFTextMedium"
+		// Tab texts
+		PropertySheet.TextColor			"G_ButtonText"
+		PropertySheet.SelectedTextColor	"G_ButtonText"
+		
+		// time to change from one tab to another (causes some stutters in community server selection when switching? need to test more -techno)
+		PropertySheet.TransitionEffectTime	"0.0"	
+
+		// Console background
+		RichText.BgColor				"G_ConsoleBg"
+		
+		// Progress bar
+		ProgressBar.FgColor				"G_Text"
+		ProgressBar.BgColor				"G_ListBg"
+		
+		// Checkboxes
+		CheckButton.TextColor			"G_Text"
+		CheckButton.SelectedTextColor	"G_SelectedText"
+		CheckButton.BgColor				"G_InputBg"
+		CheckButton.HighlightFgColor	"G_SelectedText"
 		CheckButton.ArmedBgColor		"Blank"
-		CheckButton.DepressedBgColor		"Blank"
-		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"TFTanBright"	// color of the check itself
-		CheckButton.DisabledBgColor	    "ListBG"
+		CheckButton.DepressedBgColor	"Blank"
+		CheckButton.Border1  			"Border.Dark" 	// the left checkbutton border
+		CheckButton.Border2  			"Border.Bright"	// the right checkbutton border
+		CheckButton.Check				"G_Highlight"	// color of the check itself
+		CheckButton.DisabledBgColor	    "G_InputBg"
 
-		ToggleButton.SelectedTextColor	"TFTextBright"
+		ToggleButton.SelectedTextColor	"G_Text"
 		
-		ComboBoxButton.ArrowColor		"TFTanLight"
-		ComboBoxButton.ArmedArrowColor	"TFTanBright"
+		// Dropdowns
+		ComboBoxButton.ArrowColor		"G_Text"
+		ComboBoxButton.ArmedArrowColor	"G_SelectedText"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 		
-		RadioButton.TextColor		"TFTextBright"
-		RadioButton.SelectedTextColor	"TFTextBright"
-		RadioButton.ArmedTextColor	"TFTextMedium"
+		// Radio buttons
+		RadioButton.TextColor			"G_Text"
+		RadioButton.SelectedTextColor	"G_SelectedText"
+		RadioButton.ArmedTextColor		"G_SelectedText"
 		
-		Frame.BgColor					"TFDarkBrown"
-		Frame.OutOfFocusBgColor			"TFDarkBrownTransparent"
-		FrameGrip.Color1				"TFTanMedium"
-		FrameGrip.Color2				"TFDarkBrown"
-		FrameTitleButton.FgColor		"TFTanBright"
-		FrameTitleBar.Font			"DefaultLarge"		[!$OSX]
-		FrameTitleBar.TextColor			"TFTanBright"
-		FrameTitleBar.DisabledTextColor	"TFTanLight"
+		// Frames
+		Frame.BgColor					"G_ActiveWindow"
+		Frame.OutOfFocusBgColor			"G_InctiveWindow"
+		FrameGrip.Color1				"G_Light"
+		FrameGrip.Color2				"G_Dark"
+		FrameTitleButton.FgColor		"G_TitleText"
+
+		// Frame titles
+		FrameTitleBar.Font				"G_DefaultSmall"
+		FrameTitleBar.TextColor			"G_TitleText"
+		FrameTitleBar.DisabledTextColor	"G_TitleText"
+		FrameTitleBar.BgColor			"G_TitleBg"
 		
+		// Labels
 		Label.TextDullColor				"TFTextDull"
-		Label.TextColor					"TFTextBright"
-		Label.TextBrightColor			"TFTextBright"
-		Label.SelectedTextColor			"TFTextBright"
+		Label.TextColor					"G_Text"
+		Label.TextBrightColor			"G_SelectedText"
+		Label.SelectedTextColor			"G_SelectedText"
 		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"TFTextDull"	
-		Label.DisabledFgColor2			"Blank"	
+		Label.DisabledFgColor1			"G_DisabledText"	
+		Label.DisabledFgColor2			"Blank"
 		
-		ListPanel.TextColor					"TFTextBright"
-		ListPanel.BgColor					"ListBG"
-		ListPanel.SelectedBgColor			"SelectionBG"
-		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
+		// List panels
+		ListPanel.TextColor					"G_Text"
+		ListPanel.SelectedTextColor			"G_HighlightText"
+		ListPanel.BgColor					"G_ListBg"
+		ListPanel.SelectedBgColor			"G_Highlight"
+		ListPanel.SelectedOutOfFocusBgColor	"G_Highlight"
 		
-		MainMenu.TextColor			"TanLight"			[!$OSX]
-		MainMenu.ArmedTextColor		"117 107 94 255"	[!$OSX]
+		MainMenu.TextColor			"G_Text"			[$WIN32]
+		MainMenu.ArmedTextColor		"G_SelectedText"	[$WIN32]
+		MainMenu.Backdrop 			"Blank"
 		MainMenu.Inset				"32"
 		
-		Menu.TextInset					"6"
-		Menu.FgColor			"TFTextLight"
-		Menu.BgColor			"ListBG"
-		Menu.ArmedFgColor		"TFTextBright"
-		Menu.ArmedBgColor		"TFOrangeBright"
+		Menu.TextInset			"6"
+		Menu.TextColor			"G_Text"
+		Menu.BgColor			"G_ListBg"
+		Menu.ArmedTextColor		"G_HighlightText"
+		Menu.ArmedBgColor		"G_Highlight"
 		Menu.DividerColor		"BorderDark"
 		
-		ScrollBarButton.FgColor				"TFDarkBrown"
-		ScrollBarButton.BgColor				"TFTanLight"
-		ScrollBarButton.ArmedFgColor		"TFDarkBrown"
-		ScrollBarButton.ArmedBgColor		"TFTanBright"
-		ScrollBarButton.DepressedFgColor	"TFDarkBrown"
-		ScrollBarButton.DepressedBgColor	"TFTanLight"
+		ScrollBarButton.FgColor				"G_ButtonText"
+		ScrollBarButton.BgColor				"G_ButtonBg"
+		ScrollBarButton.ArmedFgColor		"G_ButtonHoverText"
+		ScrollBarButton.ArmedBgColor		"G_ButtonHoverBg"
+		ScrollBarButton.DepressedFgColor	"G_ButtonHoverText"
+		ScrollBarButton.DepressedBgColor	"G_ButtonHoverBg"
 
-		ScrollBarSlider.BgColor				"TFTanMedium"		// this isn't really used
-		ScrollBarSlider.FgColor				"TFTanLight"		// handle with which the slider is grabbed
+		ScrollBarSlider.BgColor				"G_Dark"		// this isn't really used
+		ScrollBarSlider.FgColor				"G_ButtonBg"	// handle with which the slider is grabbed
 		
-		Slider.NobColor				"TFTanLight"		
-		Slider.TextColor			"TFTextBright"
-		Slider.TrackColor			"ListBG"
+		Slider.NobColor				"G_ButtonBg"		
+		Slider.TextColor			"G_ButtonText"
+		Slider.TrackColor			"G_Dark"
 		Slider.DisabledTextColor1	"TFTextMediumDark"
         Slider.DisabledTextColor2	"Blank"
 		
-		TextEntry.TextColor			        "TFTextBright"
-		TextEntry.DisabledTextColor	        "TFTextMedium"
-		TextEntry.SelectedBgColor	        "TFOrangeBright"
+		// Text fields
+		TextEntry.TextColor				"G_Text"
+		TextEntry.SelectedTextColor		"G_HighlightText"
+		TextEntry.DisabledTextColor		"G_DisabledText"
+		TextEntry.SelectedBgColor		"G_Highlight"
+		TextEntry.BgColor				"G_InputBg"
+		
+		// Selection list (options)
+		SectionedListPanel.TextColor			"G_Text"
+		SectionedListPanel.BrightTextColor		"G_Text"
+		SectionedListPanel.BgColor				"G_ListBg"
+		SectionedListPanel.SelectedTextColor	"G_HighlightText"
+		SectionedListPanel.SelectedBgColor		"G_Highlight"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"G_HighlightText"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"G_Highlight"
 	}
 	
 	Fonts
 	{
+		"DefaultFixedOutline" //edited by INsane 2010 for small netgraph font on all screen sizes
+		{
+            "1" 
+            {
+                "name"         	"GrisaiaEdit"		// Standard is 'Lucida Console' Options are 'Microsoft Sans Serif' 'Georgia' 'Impact' 'Arial MT' and the best for small = 'Haettenschweiler' but is a MS office and Win7 font, can be downloaded, google 'Haettenschweiler' and install in C:/Windows/Fonts
+                "tall"         	"10"  				// good positioning is ... 'net_graphpos 183' and 'net_graphheight 30' and ensure you select 'antialias'  '1' with all others off with 'Georgia' font.
+                "weight"     	"0"  				// This is the thickness, like a bold setting max is about 700. Small fonts will look better as '0'.
+                "range"         "0x0000 0x017F" 	//    Basic Latin, Latin-1 Supplement, Latin Extended-A
+                "outline"     	"1"  				//Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
+                "additive"		"0"  				//not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
+                "antialias"		"1"  				//not default added //smoothing the edges.                
+            }
+		}
 		"MainMenuFont"
 		{
-			"1"	[!$OSX]
+			"1"	[$WIN32]
 			{
 				"name"		"TF2 Build"
 				"tall"		"18"
@@ -166,6 +233,16 @@ Scheme
 		}
 
 		"Default" [$OSX]
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"500"
+			}
+		}
+		
+		"G_DefaultSmall"
 		{
 			"1"
 			{
@@ -223,7 +300,7 @@ Scheme
 		}
 		
 				
-		AchievementItemTitle	[!$OSX]
+		AchievementItemTitle	[$WIN32]
 		{
 			"1"
 			{
@@ -236,7 +313,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemTitleLarge	[!$OSX]
+		AchievementItemTitleLarge	[$WIN32]
 		{
 			"1"
 			{
@@ -249,7 +326,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemDescription	[!$OSX]
+		AchievementItemDescription	[$WIN32]
 		{
 			"1"
 			{
@@ -327,13 +404,6 @@ Scheme
 				"range" "0x0000 0x0451"
 			}	
 		}
-		"10"		"resource/linux_fonts/DejaVuSans.ttf"
-		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
-		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
-		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
-		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
-		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }
+

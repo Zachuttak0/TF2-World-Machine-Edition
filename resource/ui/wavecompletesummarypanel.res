@@ -1,5 +1,5 @@
 "Resource/UI/WaveCompletePanel.res"
-{		
+{
 	"Background"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -16,11 +16,11 @@
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
-	
+
 	"WaveCompleteContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -31,12 +31,12 @@
 		"tall"			"35"
 		"visible"		"1"
 		"PaintBackgroundType" "2"
-		
+
 		"WaveCompleteLabelShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabelShadow"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFont18Bold"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"3"
@@ -45,19 +45,19 @@
 			"tall"			"36"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"black"		
-			
+			"fgcolor"		"black"
+
 			// Red Background
 			"PaintBackgroundType" "2"
-			"fgcolor_override"	"black"		
+			"fgcolor_override"	"black"
 			"bgcolor_override"	"190 60 60 225"
 		}
-		
+
 		"WaveCompleteLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFont18Bold"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"2"
@@ -66,10 +66,10 @@
 			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"		
+			"fgcolor"		"tanlight"
 		}
 	}
-		
+
 	"CreditContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -80,12 +80,12 @@
 		"tall"			"400"
 		"autoResize"	"1"
 		"visible"		"1"
-		
+
 		"CreditCollectedTextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditCollectedTextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_PVE_CurrencyCollected"
 			"textAlignment" "north-east"
 			"xpos"			"0"
@@ -94,12 +94,12 @@
 			"tall"			"20"
 			"fgcolor"		"tanlight"
 		}
-		
+
 		"CreditCollectedCountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditCollectedCountLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"%creditscollected%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
@@ -108,12 +108,12 @@
 			"tall"			"20"
 			"fgcolor"		"CreditsGreen"
 		}
-		
+
 		"CreditMissedTextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditMissedTextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_PVE_Missed"
 			"textAlignment" "north-east"
 			"xpos"			"0"
@@ -122,12 +122,12 @@
 			"tall"			"20"
 			"fgcolor"		"tanlight"
 		}
-		
+
 		"CreditMissedCountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditMissedCountLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"%creditsmissed%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
@@ -136,12 +136,12 @@
 			"tall"			"20"
 			"fgcolor"		"RedSolid"
 		}
-		
+
 		"CreditBonusTextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusTextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TF_PVE_Bonus"
 			"textAlignment" "north-east"
 			"xpos"			"0"
@@ -150,12 +150,12 @@
 			"tall"			"20"
 			"fgcolor"		"tanlight"
 		}
-		
+
 		"CreditBonusCountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusCountLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"%creditbonus%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
@@ -165,7 +165,7 @@
 			"fgcolor"		"CreditsGreen"
 		}
 	}
-	
+
 	"RatingContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -176,12 +176,12 @@
 		"tall"			"400"
 		"autoResize"	"1"
 		"visible"		"1"
-		
+
 		"RatingLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"%ratinglabel%"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -190,12 +190,12 @@
 			"tall"			"20"
 			"fgcolor"		"tanlight"
 		}
-		
+
 		"RatingTextShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingTextShadow"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
 			"xpos"			"1"
@@ -204,12 +204,12 @@
 			"tall"			"30"
 			"fgcolor"		"Black"
 		}
-		
+
 		"RatingText"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingText"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -236,9 +236,9 @@
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 
 	"RespecContainer"
@@ -251,12 +251,12 @@
 		"tall"			"25"
 		"visible"		"1"
 		"PaintBackgroundType" "2"
-	
+
 		"RespecTextLabelWin"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecTextLabelWin"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"#TF_PVE_Respecs"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -265,12 +265,12 @@
 			"tall"			"20"
 			"fgcolor"		"tanlight"
 		}
-		
+
 		"RespecCountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecCountLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 			"labelText"		"%respeccount%"
 			"textAlignment" "center"
 			"xpos"			"145"

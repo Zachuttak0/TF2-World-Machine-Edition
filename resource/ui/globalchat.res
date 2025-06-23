@@ -42,8 +42,8 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
-		"font"			"HudFontSmallest"
-		
+		"font"			"HudFont11Bold"
+
 		"bgcolor_override"	"0 0 0 50"
 
 		"pinCorner"		"2"
@@ -64,14 +64,14 @@
 			{
 				"fgcolor_override"	"TanLight"
 			}
-		
+
 			"UpButton"
 			{
 				"ControlName"	"Button"
 				"FieldName"		"UpButton"
 				"visible"		"0"
 			}
-		
+
 			"DownButton"
 			{
 				"ControlName"	"Button"
@@ -94,7 +94,7 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
 		"RoundedCorners"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"alpha"			"0"
 		"mouseinputenabled"	"0"
 

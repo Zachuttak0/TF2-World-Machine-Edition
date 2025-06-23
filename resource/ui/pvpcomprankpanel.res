@@ -15,8 +15,8 @@
 		"MedalButton"
 		{
 			"ypos"			"cs-0.5-10"
-			"wide"			"75"
-			"tall"			"85"
+			"wide"			"0"
+			"tall"			"0"
 		}
 	}
 
@@ -47,9 +47,9 @@
 
 				"fonts"
 				{
-					"0"		"HudFontSmallBold"
-					"1"		"StorePromotionsTitle"
-					"2"		"FontStorePrice"
+					"0"		"HudFont14Bold"
+					"1"		"HudFont10Bold"
+					"2"		"HudFont9"
 				}
 			}
 		}

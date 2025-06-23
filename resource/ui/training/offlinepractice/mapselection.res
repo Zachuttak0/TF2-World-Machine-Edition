@@ -31,7 +31,7 @@
 		"tabPosition"		"0"
 		"bgcolor_override"	"40 37 37 255"
 	}
-	
+
 	"GradientPanel"
 	{
 		"ControlName"	"ImagePanel"
@@ -46,7 +46,7 @@
 		"scaleImage"	"1"
 		"image"			"training/gradient_black"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"	"CExButton"
@@ -62,7 +62,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_LessThan"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"dulltext"		"0"
@@ -70,8 +70,8 @@
 		"Command"		"goprev"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 	"NextButton"
 	{
 		"ControlName"	"CExButton"
@@ -87,7 +87,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_GreaterThan"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"dulltext"		"0"
@@ -95,13 +95,13 @@
 		"Command"		"gonext"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 	"MapNameLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapNameLabel"
-		"font"			"HudFontMedium"
+		"font"			"HudFont24"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"xpos"			"60"
@@ -116,12 +116,12 @@
 		"wrap"			"0"
 		"fgcolor_override"	"246 237 211 255"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFont18Bold"
 		"labelText"		"%curpage%"
 		"textAlignment"	"north"
 		"center"		"1"
@@ -139,7 +139,7 @@
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"ButtonBorder"
 	}
-	
+
 	"StartOfflinePracticeButton"
 	{
 		"ControlName"		"CExButton"
@@ -154,7 +154,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_StartPractice"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFont14Bold"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
@@ -166,17 +166,17 @@
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
-		
+
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 	}
-	
+
 	"DifficultyLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DifficultyLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#TF_Bot_Difficulty"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -190,12 +190,12 @@
 		"wrap"			"0"
 		"fgcolor_override"	"246 237 211 255"
 	}
-	
+
 	"DifficultyComboBox"
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"DifficultyComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HudFont11Bold"
 		"xpos"				"200"
 		"ypos"				"200"
 		"zpos"				"1"
@@ -212,22 +212,22 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"textinsetx"		"50"
-		
+
 		"fgcolor_override"	"246 237 211 255"
 		"bgcolor_override"	"16 14 14 255"
-		
+
 		"disabledFgColor_override" "235 226 202 255"
 		"disabledBgColor_override" "51 47 46 255"
 		"selectionColor_override" "51 47 46 255"
 		"selectionTextColor_override" "235 226 202 255"
 		"defaultSelectionBG2Color_override" "51 47 46 255"
 	}
-	
+
 	"PlayersLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayersLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#IT_BotAddition_Title"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -241,12 +241,12 @@
 		"wrap"			"0"
 		"fgcolor_override"	"246 237 211 255"
 	}
-	
+
 	"NumPlayersTextEntry"
 	{
 		"ControlName"	"TextEntry"
 		"fieldName"		"NumPlayersTextEntry"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"textHidden"	"0"
 		"textAlignment"	"west"
 		"unicode"		"1"
@@ -264,16 +264,16 @@
 		"maxchars"		"2"
 		"NumericInputOnly"	"1"
 		"selectallonfirstfocus"	"1"
-		
+
 		"bgcolor_override"	"16 14 14 255"
 		"fgcolor_override"	"246 237 211 255"
 	}
-	
+
 	"SuggestedPlayerCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SuggestedPlayerCountLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		""
 		"textAlignment"	"west"
 		"xpos"			"230"

@@ -13,21 +13,22 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"image"			"white"
+		"drawcolor"		"DarkerGray"
 
 
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
-		
+
 		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"draw_corner_height" 	"8"
 	}
 
 	"TournamentSetupLabel"
-	{	
+	{
 		"ControlName"		"Label"
-		"fieldName"		"TournamentLabel"
-		"font"			"HudFontSmallBold"
+		"fieldName"		"TournamentSetupLabel"
+		"font"			"HudFont14Bold"
 		"xpos"			"8"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -43,10 +44,10 @@
 	}
 
 	"TournamentTeamNameLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"xpos"			"67"
 		"ypos"			"28"
 		"zpos"			"1"
@@ -76,14 +77,15 @@
 		"tabPosition"		"0"
 		"textHidden"		"0"
 		"editable"		"1"
-		"maxchars"		"5"
+		"maxchars"		"6"
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
 		"wrap"			"0"
-		"fgcolor_override"		"235 226 202 255"
+		"fgcolor_override"		"FullWhite"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
+		"roundedcorners"	"0"
 	}
 
 	"HudTournamentNameBG"
@@ -99,7 +101,7 @@
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
-		"fillcolor"	"0 0 0 255"
+		"fillcolor"	"DarkerGray"
 		"scaleImage"	"1"
 	}
 
@@ -122,7 +124,7 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"fgcolor"		"Red"
 	}
 
@@ -143,9 +145,9 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"command"		"teamready" 
+		"command"		"teamready"
 		"default"		"1"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"fgcolor"		"FooterBGBlack"
 	}
 }

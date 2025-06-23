@@ -44,9 +44,9 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_OpenSettings"
 		"textAlignment"	"west"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"fgcolor_override"	"TanDark"
-		
+
 		"mouseinputenabled"	"0"
 	}
 
@@ -62,11 +62,11 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_InviteMode"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"smallcheckimage"	"1"
 		"fgcolor_override"	"TanDark"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 	}
 
@@ -80,7 +80,7 @@
 		"wide"			"200"
 		"tall"			"15"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"keyboardinputenabled"	"0"
 
 		"editable"		"0"
@@ -105,10 +105,10 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_IgnoreInvites"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 
 		"cvar_name" "tf_party_ignore_invites"
@@ -126,11 +126,11 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"smallcheckimage"	"1"
 		"enabled"	"0"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 	}
 
@@ -146,10 +146,10 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_PartySameTeam"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 		"fgcolor_override"		"TanDark"
 	}
@@ -166,11 +166,11 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"smallcheckimage"	"1"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 
 		"cvar_name"	"tf_mm_custom_ping_enabled"
@@ -190,10 +190,10 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_LobbyContainer_CustomPingButton"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 	}
 
@@ -209,11 +209,11 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_LobbyContainer_CustomPingDesc"
 		"textAlignment"	"north-west"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"wrap"		"1"
 		"fgcolor"		"117 107 94 255"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 	}
 
@@ -229,8 +229,8 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
-		
+		"font"			"HudFont11Bold"
+
 		"mouseinputenabled"	"0"
 	}
 
@@ -301,14 +301,14 @@
 				{
 					"fgcolor_override"	"TanDark"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"UpButton"
 					"visible"		"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"	"Button"
@@ -331,7 +331,7 @@
 			"border"		"InnerShadowBorder"
 			"mouseinputenabled"	"0"
 		}
-			
+
 		"Background"
 		{
 			"ControlName"	"EditablePanel"

@@ -15,12 +15,12 @@
 		"settitlebarvisible"	""
 		"border"				"GrayDialogBorder"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"%testtitle%"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -34,12 +34,12 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
+
 	"SelectModelLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectModelLabel"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#IT_YourModel"
 		"textAlignment"	"west"
 		"xpos"			"10"
@@ -85,7 +85,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_SelectModel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -105,12 +105,12 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"46 43 42 255"
-		
+
 		"ItemReplacedLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemReplacedLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_ExistingItem"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -128,7 +128,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ExistingItemComboBox"
-			"Font"				"HudFontSmallest"
+			"Font"				"HudFont11Bold"
 			"xpos"				"95"
 			"ypos"				"0"
 			"zpos"				"1"
@@ -144,7 +144,7 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			
+
 			"fgcolor_override"	"117 107 94 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
@@ -154,7 +154,7 @@
 			"defaultSelectionBG2Color_override" "251 235 202 255"
 		}
 	}
-	
+
 	"ItemReplacedPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -166,12 +166,12 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"46 43 42 255"
-		
+
 		"ItemReplacedLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemReplacedLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_ItemReplaces"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -188,7 +188,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ItemReplacedComboBox"
-			"Font"				"HudFontSmallest"
+			"Font"				"HudFont11Bold"
 			"xpos"				"95"
 			"ypos"				"0"
 			"zpos"				"1"
@@ -204,7 +204,7 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			
+
 			"fgcolor_override"	"117 107 94 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
@@ -217,7 +217,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NoItemsToReplaceLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_ItemReplaced_Invalid"
 			"textAlignment"	"west"
 			"xpos"			"95"
@@ -233,7 +233,7 @@
 			"fgcolor_override" "200 80 60 255"
 		}
 	}
-	
+
 	"BodygroupPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -244,12 +244,12 @@
 		"tall"			"50"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		
+
 		"HideBodygroupLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HideBodygroupLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_Bodygroups"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -442,7 +442,7 @@
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
 	}
-	
+
 	"CustomizationsPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -453,12 +453,12 @@
 		"tall"			"50"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		
+
 		"PaintColorLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PaintColorLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_PaintTitle"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -491,7 +491,7 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			
+
 			"fgcolor_override"	"117 107 94 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
@@ -505,7 +505,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UnusualEffectLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#IT_UnusualTitle"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -538,7 +538,7 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			
+
 			"fgcolor_override"	"117 107 94 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
@@ -548,7 +548,7 @@
 			"defaultSelectionBG2Color_override" "251 235 202 255"
 		}
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -564,7 +564,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -588,7 +588,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_Ok"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -597,7 +597,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ReloadSchemeButton"
 	{
 		"ControlName"	"CExButton"
@@ -613,7 +613,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"R"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

@@ -15,12 +15,12 @@
 		"paintborder"			"0"
 		"paintbackground"		"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"#IT_BotControl_Title"
 		"textAlignment"	"west"
 		"xpos"			"5"
@@ -33,12 +33,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"BotAnimationTitle"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BotAnimationTitle"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#IT_BotAnim_Title"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -55,7 +55,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"BotAnimationComboBox"
-		"Font"				"HudFontSmallest"
+		"Font"				"HudFont11Bold"
 		"xpos"				"95"
 		"ypos"				"20"
 		"zpos"				"1"
@@ -71,7 +71,7 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		
+
 		"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"251 235 202 0"
 		"disabledFgColor_override" "117 107 94 0"
@@ -80,7 +80,7 @@
 		"selectionTextColor_override" "235 226 202 255"
 		"defaultSelectionBG2Color_override" "251 235 202 255"
 	}
-	
+
 	"BotForceFireCheckBox"
 	{
 		"ControlName"	"CheckButton"
@@ -100,7 +100,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"disabledfgcolor2_override"	"117 107 94 255"
-	}	
+	}
 	"BotTurntableCheckBox"
 	{
 		"ControlName"	"CheckButton"
@@ -120,7 +120,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"disabledfgcolor2_override"	"117 107 94 255"
-	}	
+	}
 	"BotViewScanCheckBox"
 	{
 		"ControlName"	"CheckButton"
@@ -140,13 +140,13 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"disabledfgcolor2_override"	"117 107 94 255"
-	}	
-	
+	}
+
 	"BotAnimationAnimTitle"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BotAnimationAnimTitle"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#IT_BotAnimSpeed_Title"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -189,7 +189,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -213,7 +213,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#IT_Apply"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -222,7 +222,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ReloadSchemeButton"
 	{
 		"ControlName"	"CExButton"
@@ -238,7 +238,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"R"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

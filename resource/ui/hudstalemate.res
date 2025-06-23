@@ -17,10 +17,10 @@
 		"scaleImage"		"1"
 	}
 	"StalemateLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"StalemateLabel"
-		"font"			"HudFontMedium"
+		"font"			"HudFont24"
 		"xpos"			"25"
 		"ypos"			"17"
 		"zpos"			"1"
@@ -35,10 +35,10 @@
 		"textAlignment"		"northwest"
 	}
 	"ReasonLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"ReasonLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"xpos"			"25"
 		"ypos"			"34"
 		"zpos"			"1"

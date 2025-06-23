@@ -19,7 +19,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFont14Bold"
 			"labelText"		"#MMenu_CompetitiveAccess"
 			"textAlignment"	"center"
 			"xpos"			"5"
@@ -38,7 +38,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#MMenu_CompetitiveAccess_Desc"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -58,7 +58,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Option1Label"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#MMenu_CompetitiveAccessOption1"
 			"textAlignment"	"center"
 			"xpos"			"10"
@@ -77,7 +77,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Option1DescLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#MMenu_CompetitiveAccessOption1_Desc"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -122,7 +122,7 @@
 				"border"		"InnerShadowBorder"
 				"mouseinputenabled"	"0"
 			}
-			
+
 			"Background"
 			{
 				"ControlName"	"EditablePanel"
@@ -161,7 +161,7 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 				"paintbackground"	"1"
 
 				"defaultBgColor_override" "0 0 0 64"
@@ -208,7 +208,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AndLabel1"
-				"font"			"HudFontMediumBigBold"
+				"font"			"HudFont30Bold"
 				"labelText"		"+"
 				"textAlignment"	"center"
 				"xpos"			"p0.3"
@@ -244,7 +244,7 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 				"paintbackground"	"1"
 
 				"defaultBgColor_override" "0 0 0 64"
@@ -291,7 +291,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AndLabel2"
-				"font"			"HudFontMediumBigBold"
+				"font"			"HudFont30Bold"
 				"labelText"		"+"
 				"textAlignment"	"center"
 				"xpos"			"p0.65"
@@ -343,15 +343,15 @@
 				"command"		"open_casual"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
-			
+
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 				"paintbackground"	"1"
-			
+
 				"defaultBgColor_override" "0 0 0 64"
 				"armedBgColor_override" "0 0 0 0"
-			
+
 				"image_drawcolor"	"200 200 200 255"
 				"image_armedcolor"	"255 255 255 255"
 			}
@@ -378,7 +378,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Option2Label"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFont11Bold"
 			"labelText"		"#MMenu_CompetitiveAccessOption2"
 			"textAlignment"	"center"
 			"xpos"			"10"
@@ -397,7 +397,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Option2DescLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#MMenu_CompetitiveAccessOption2_Desc"
 			"textAlignment"	"north-west"
 			"xpos"			"20"

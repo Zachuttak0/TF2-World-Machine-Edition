@@ -16,12 +16,12 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFont24Bold"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -34,12 +34,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFont11Bold"
 		"labelText"		"%text%"
 		"textAlignment"	"north-west"
 		"xpos"			"35"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel2"
-		"font"			"HudFontSmallest"
+		"font"			"HudFont11Bold"
 		"labelText"		"#Store_ConfirmStampDonationAddText2"
 		"textAlignment"	"north-west"
 		"xpos"			"35"
@@ -121,7 +121,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_Nope"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -129,7 +129,7 @@
 		"Command"		"nope"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}			
+	}
 
 	"ConfirmButton"
 	{
@@ -146,7 +146,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_AddToCart"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -160,7 +160,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PriceLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"%price%"
 		"textAlignment"	"north-east"
 		"xpos"			"345"

@@ -14,7 +14,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_Training_StartTraining"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFont14Bold"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
@@ -26,12 +26,12 @@
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
-		
+
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 	}
-	
+
 	"OverlayPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -47,12 +47,12 @@
 		"paintbackground"	"1"
 		"bgcolor_override"	"40 37 37 255"
 		"border"			"ButtonBorder"
-		
+
 		"ClassNameLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ClassNameLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFont24Bold"
 			"labelText"		"%classname%"
 			"textAlignment"	"left"
 			"xpos"			"10"
@@ -65,12 +65,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		
+
 		"DescLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"%description%"
 			"textAlignment"	"left"
 			"xpos"			"10"
@@ -83,12 +83,12 @@
 			"enabled"		"1"
 			"wrap"			"1"
 		}
-		
+
 		"WeaponSetLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WeaponSetLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TR_StandardWeaponSet"
 			"textAlignment"	"center"
 			"xpos"			"10"
@@ -101,7 +101,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "116 108 101 255"
 		}
-		
+
 		"WeaponImage0"
 		{
 			"ControlName"	"ImagePanel"
@@ -114,7 +114,7 @@
 			"tileImage"		"0"
 			"scaleImage"	"1"
 		}
-		
+
 		"WeaponImage1"
 		{
 			"ControlName"	"ImagePanel"
@@ -127,7 +127,7 @@
 			"tileImage"		"0"
 			"scaleImage"	"1"
 		}
-		
+
 		"WeaponImage2"
 		{
 			"ControlName"	"ImagePanel"
@@ -140,12 +140,12 @@
 			"tileImage"		"0"
 			"scaleImage"	"1"
 		}
-		
+
 		"PrimaryLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PrimaryLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TR_Primary"
 			"textAlignment"	"center"
 			"xpos"			"15"
@@ -157,12 +157,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		
+
 		"SecondaryLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SecondaryLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TR_Secondary"
 			"textAlignment"	"center"
 			"xpos"			"115"
@@ -174,12 +174,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		
+
 		"MeleeLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MeleeLabel"
-			"font"			"HudFontSmallest"
+			"font"			"HudFont11Bold"
 			"labelText"		"#TR_Melee"
 			"textAlignment"	"center"
 			"xpos"			"215"
@@ -192,7 +192,7 @@
 			"enabled"		"1"
 		}
 	}
-	
+
 	"ClassImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -206,7 +206,7 @@
 		"tileImage"		"0"
 		"scaleImage"	"1"
 	}
-	
+
 	"ClassIconImage"
 	{
 		"ControlName"	"ImagePanel"

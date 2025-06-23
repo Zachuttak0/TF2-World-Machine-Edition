@@ -5,14 +5,14 @@
 	"Survey"
 	{
 		"tall"			"250"
-	
+
 		"QuestionContainer"
 		{
 			"TextLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TextLabel"
-				"font"			"HudFontSmallestBold"
+				"font"			"HudFont11Bold"
 				"labelText"		"#TF_SurveyQuestion_CasualInquiry"
 				"textAlignment"	"north"
 				"xpos"			"cs-0.5"
@@ -59,7 +59,7 @@
 					"mouseinputenabled"	"0"
 				}
 
-				"Answer0" 
+				"Answer0"
 				{
 					"ControlName"	"RadioButton"
 					"fieldName"		"Radio0"
@@ -73,7 +73,7 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
-					
+
 					"labelText"		""
 					"Command"		"option0"
 				}
@@ -89,9 +89,9 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_CasualInquiry_Answer0"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"left"
 
 					"associate"		"Radio0"
@@ -127,13 +127,13 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_CasualInquiry_Answer1"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"left"
 				}
 
-				"Answer2" 
+				"Answer2"
 				{
 					"ControlName"	"RadioButton"
 					"fieldName"		"Radio2"
@@ -163,9 +163,9 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_CasualInquiry_Answer2"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"left"
 					"default"		"1"
 				}
@@ -184,7 +184,7 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
-					
+
 					"labelText"		""
 					"Command"		"option3"
 				}
@@ -200,9 +200,9 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_CasualInquiry_Answer3"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"left"
 				}
 
@@ -220,7 +220,7 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
-					
+
 					"labelText"		""
 					"Command"		"option4"
 				}
@@ -236,9 +236,9 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_CasualInquiry_Answer4"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"left"
 				}
 
@@ -256,7 +256,7 @@
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
-					
+
 					"labelText"		""
 					"Command"		"option4"
 				}
@@ -272,9 +272,9 @@
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					
+
 					"labelText"		"#TF_SurveyQuestion_CasualInquiry_Answer5"
-					"font"			"HudFontSmallest"
+					"font"			"HudFont11Bold"
 					"textAlignment"	"left"
 				}
 			}
@@ -289,7 +289,7 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#AbuseReport_Submit"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFont14Bold"
 				"textAlignment"	"center"
 				"Command"		"submit"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -298,5 +298,5 @@
 				"actionsignallevel"	"2"
 			}
 		}
-	}	
+	}
 }

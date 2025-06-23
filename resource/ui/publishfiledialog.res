@@ -65,7 +65,7 @@
 		"bgcolor_override"	"57 52 49 255"
 	}
 
-	"Title"	
+	"Title"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
@@ -83,10 +83,10 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"font"		"HudFontMediumBold"
+		"font"		"HudFont24Bold"
 	}
 
-	"LabelPreview"	
+	"LabelPreview"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"LabelPreview"
@@ -104,7 +104,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"PreviewImageBorder"
@@ -141,7 +141,7 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 			"wrap"		"1"
-			"font"		"HudFontSmallest"
+			"font"		"HudFont11Bold"
 		}
 	}
 
@@ -176,7 +176,7 @@
 		"wrap"		"0"
 		"Command"		"PreviewBrowse"
 		"Default"		"1"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"LabelTitle"
@@ -197,7 +197,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"FileTitle"
@@ -221,9 +221,9 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmall"
+		"font"		"HudFont14"
 	}
-		
+
 	"LabelDesc"
 	{
 		"ControlName"		"Label"
@@ -242,7 +242,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 	"FileDesc"
 	{
@@ -265,7 +265,7 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmall"
+		"font"		"HudFont14"
 	}
 
 	"LabelSourceFile"
@@ -286,9 +286,9 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
-	
+
 	"SourceFile"
 	{
 		"ControlName"		"Label"
@@ -308,7 +308,7 @@
 		"maxchars"		"256"
 		"NumericInputOnly"		"0"
 		"unicode"		"0"
-		"font"		"HudFontSmall"
+		"font"		"HudFont14"
 	}
 
 	"ButtonSourceCosmetics"
@@ -331,7 +331,7 @@
 		"wrap"		"0"
 		"Command"		"MainFileCosmetics"
 		"Default"		"1"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 
 		"SubImage"
 		{
@@ -344,7 +344,7 @@
 			"tall"			"25"
 			"scaleImage"	"1"
 			"image"			"importtool_goldstar"
-		}	
+		}
 	}
 
 	"ButtonSourceOther"
@@ -367,7 +367,7 @@
 		"wrap"		"0"
 		"Command"		"MainFileOther"
 		"Default"		"1"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"ButtonSourceMaps"
@@ -390,7 +390,7 @@
 		"wrap"		"0"
 		"Command"		"MainFileMaps"
 		"Default"		"1"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 
 		//"SubImage"
 		//{
@@ -424,7 +424,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"1"
-		"font"		"HudFontSmallest"
+		"font"		"HudFont11Bold"
 		"fgcolor_override"	"TanDark"
 	}
 
@@ -446,7 +446,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"ClassUsagePanel"
@@ -648,7 +648,7 @@
 			"brighttext"	"0"
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
-		}	
+		}
 
 		"TagCheckbox_Headgear"
 		{
@@ -775,7 +775,7 @@
 			"brighttext"	"0"
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
-		}		
+		}
 		"TagCheckbox_Taunt"
 		{
 			"ControlName"	"CheckButton"
@@ -838,7 +838,7 @@
 			"brighttext"	"0"
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
-		}		
+		}
 		"TagCheckbox_Jungle"
 		{
 			"ControlName"	"CheckButton"
@@ -1345,7 +1345,7 @@
 		"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"0"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 
 	"ButtonPublish"
@@ -1368,6 +1368,6 @@
 		"wrap"		"0"
 		"Command"		"Publish"
 		"Default"		"1"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFont14Bold"
 	}
 }

@@ -11,8 +11,8 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
-  
-		"Next" [$WIN32] 
+
+		"Next" [$WIN32]
 		{
 			"ControlName"		"CExButton"
 			"fieldName"		"Next"
@@ -36,12 +36,12 @@
 			"brighttext"		"0"
 			"wrap"		"0"
 			"command"		"next"
-			"font"			"MenuSmallFont"
+			"font"			"HudFont14Shadow"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 
-		"Quit" [$WIN32] 
+		"Quit" [$WIN32]
 		{
 			"ControlName"		"CExButton"
 			"fieldName"		"Quit"
@@ -65,12 +65,12 @@
 			"brighttext"		"0"
 			"wrap"		"0"
 			"command"		"quit"
-			"font"			"MenuSmallFont"
+			"font"			"HudFont14Shadow"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}	
-		
-		"Replay" [$WIN32] 
+		}
+
+		"Replay" [$WIN32]
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"Replay"
@@ -91,12 +91,12 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"command"		"replay"
-			"font"			"MenuSmallFont"
+			"font"			"HudFont14Shadow"
 			"fgcolor"		"Black"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
-		
+
 		"BottomBar"
 		{
 			"ControlName"	"ImagePanel"
@@ -114,10 +114,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"56 51 44 255"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 
 		"TopBar"
 		{
@@ -136,7 +136,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"56 51 44 255"
 			"PaintBackgroundType"	"0"
 		}
@@ -173,7 +173,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ResultsLabel"
-		  	"font"			"HudFontMediumSmallBold"
+		  	"font"			"HudFont18Bold"
 			"labelText"		"%wintext%"
 			"textAlignment"		"center"
 			"xpos"			"0"
@@ -216,8 +216,8 @@
 			"text"			""
 			"wrap"			"1"
 			"textAlignment"		"north-west"
-			"font"			"HudFontSmall"
+			"font"			"HudFont14"
 		}
-	}			
+	}
 }
 

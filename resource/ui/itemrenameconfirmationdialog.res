@@ -29,13 +29,13 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -54,12 +54,12 @@
 			"centerwrap"	"1"
 		}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -78,7 +78,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToolBG"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		""
 		"textAlignment"	"east"
 		"xpos"			"10"
@@ -108,9 +108,9 @@
 		"tileImage"		"0"
 		"tileVertically" "0"
 		"drawcolor"		"112 176 74 255"
-	}				
+	}
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"tool_modelpanel"
 		"xpos"			"10"
@@ -135,12 +135,12 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 	"SubjectBG"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubjectBG"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"labelText"		""
 		"textAlignment"	"east"
 		"xpos"			"300"
@@ -170,9 +170,9 @@
 		"tileImage"		"0"
 		"tileVertically" "0"
 		"drawcolor"		"71 98 145 255"
-	}	
+	}
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"subject_modelpanel"
 		"xpos"			"300"
@@ -197,13 +197,13 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}	
-	
+	}
+
 	"ConfirmLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"#CraftAskNameConfirm"
 		"textAlignment"	"center"
 		"xpos"			"20"
@@ -217,12 +217,12 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
+
 	"GivenName"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GivenName"
-		"font"			"HudFontMediumSecondary"
+		"font"			"HudFont24"
 		"labelText"		"%name%"
 		"textAlignment"	"center"
 		"xpos"			"20"
@@ -242,7 +242,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WarningLabel"
-		"font"			"HudFontSmall"
+		"font"			"HudFont14"
 		"labelText"		"#CraftAskNameWarning"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -272,7 +272,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -281,7 +281,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"	"CExButton"
@@ -297,7 +297,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameConfirm"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFont14Bold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
